@@ -836,6 +836,7 @@ input[type='checkbox'] {
 	margin-left: auto;
 }
 
+
 .cards-1 .card-title {
 	margin-bottom: 0.875rem;
 }
@@ -900,8 +901,8 @@ input[type='checkbox'] {
 /*     09. Details Lightboxes     */
 /**********************************/
 .lightbox-basic {
-	margin: 2.5rem auto;
-	padding: 2rem 1.5rem 2rem 1.5rem;
+	margin: 0.5rem auto;
+	padding: 2rem 0.5rem 2rem 0.5rem;
 	border-radius: 0.25rem;
 	background: #fff;
 	text-align: left;
@@ -913,10 +914,17 @@ input[type='checkbox'] {
 }
 
 .lightbox-basic .image-container {
-	max-width: 33.75rem;
-	margin-right: auto;
+	max-width: 0rem;
+	margin-right: 2rem;
 	margin-bottom: 3rem;
-	margin-left: auto;
+	margin-left: 2rem;
+}
+
+.lightbox-basic .image-container-1 {
+	max-width: 0rem;
+	margin-right: 2rem;
+	margin-bottom: 3rem;
+	margin-left: 2rem;
 }
 
 .lightbox-basic h3 {
@@ -946,6 +954,11 @@ input[type='checkbox'] {
 .lightbox-basic .list-unstyled .media-body {
 	margin-left: 0.625rem;
 }
+
+.lightbox-basic .list-unstyled .media-body .first-line {
+	color: #e01818;
+}
+
 
 .lightbox-basic .btn-outline-reg,
 .lightbox-basic .btn-solid-reg {
@@ -990,6 +1003,15 @@ input[type='checkbox'] {
 	color: #707984;
 }
 
+.lightbox-basic button.mfp-close.x-button-1 {
+	position: relative;
+	top: 2rem;
+	right: 2rem;
+	width: 2.75rem;
+	height: 2.75rem;
+	color: #ffffff;
+}
+
 
 /***********************/
 /*     10. Pricing     */
@@ -1019,6 +1041,17 @@ input[type='checkbox'] {
 	padding: 2.5rem 2.75rem 1.875rem 2.5rem;
 }
 
+.cards-2 .card .card-body-1 {
+	text-align: left;
+}
+
+.cards-2 .card .card-body-1 .card-image-1{
+	max-width: 50%;
+	height: auto;
+	margin-top: 2rem;
+	margin-left: 4.5rem;
+}
+
 .cards-2 .card .card-title {
 	margin-bottom: 0.625rem;
 	color: #393939;
@@ -1030,6 +1063,10 @@ input[type='checkbox'] {
 
 .cards-2 .card .card-subtitle {
 	margin-bottom: 1.75rem;
+}
+
+.cards-2 .card .card-subtitle-1 {
+	margin-bottom: 0.75rem;
 }
 
 .cards-2 .card .cell-divide-hr {
@@ -1172,6 +1209,7 @@ input[type='checkbox'] {
 
 .basic-3 .image-container {
 	margin-bottom: 2.25rem;
+	text-align: center;
 }
 
 .basic-3 .image-container img {
@@ -1444,7 +1482,7 @@ input[type='checkbox'] {
 }
 
 .form-2 .map-responsive {
-	position: relative;
+	position: center;
 	overflow: hidden;
 	height: 0;
 	margin-bottom: 4rem;
@@ -1918,12 +1956,29 @@ a:hover.back-to-top {
 	}
 
 	.lightbox-basic .image-container {
-		max-width: 100%;
-		margin-right: 2rem;
+		max-width: 75%;
+		margin-top: 5rem;
+		margin-right: 0rem;
 		margin-bottom: 0;
-		margin-left: 0.5rem;
+		margin-left: 0rem;
 	}
-	
+
+	.lightbox-basic .image-container-1 {
+		max-width: 75%;
+		margin-right: 0rem;
+		margin-bottom: 0;
+		margin-left: 0rem;
+	}
+
+	.lightbox-basic .image-container-1 {
+		max-width: 75%;
+		margin-top: 2rem;
+		margin-right: 0rem;
+		margin-bottom: 0;
+		margin-left: 0rem;
+	}
+
+
 	.lightbox-basic h3 {
 		margin-top: 0.5rem;
 	}
@@ -1958,6 +2013,13 @@ a:hover.back-to-top {
 		max-width: 53.125rem;
 		margin-right: auto;
 		margin-left: auto;
+	}
+
+	.video-index{
+		margin-left: auto;
+		max-height: 60%;
+		max-width: 60%;
+		position: relative;
 	}
 
 	.basic-3 p {
